@@ -5,11 +5,12 @@ The data used for this analysis was downoload from Kaggle
 ### The Source code for writting the on jupiter notebook will be provide in this repo
 
 ### The image:
-![image](https://github.com/PopeCollins/Three-in-one-chart-with-python/blob/main/top%2010.png "image")
+![alt text](https://github.com/PopeCollins/Three-in-one-chart-with-python/blob/main/top%2010.png)
 
 
 ### The source code Using jupiter notebook
 #### Import the usefull library
+
 1. import pandas as pd
 2. import numpy as np
 3. import seaborn as sns
