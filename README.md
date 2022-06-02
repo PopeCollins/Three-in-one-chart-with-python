@@ -46,14 +46,14 @@ happy_df= data_first.rename(columns={'Country name':'country_name', 'Regional in
 6. axes[0].set_ylabel('The health life expectancy')
 7. axes[0].set_xticklabels(xlabels,rotation = 45, ha='right' )
 8. sns.barplot(x=top_10.country_name, y=top_10.healthy_life_expectancy, ax= axes[0])
-### Second chart
+
 1. xlabels= bottom_10.country_name
 2. axes[1].set_title("Bottom 10 happy country")
 3. axes[1].set_xlabel("The countries")
 4. axes[1].set_ylabel('The health life expectancy')
 5. axes[1].set_xticklabels(xlabels,rotation = 45, ha='right' )
 6. sns.barplot(x=bottom_10.country_name, y=bottom_10.healthy_life_expectancy, ax= axes[1])
-## Third chat
+
 1. xlabels=any_10.country_name
 2. axes[2].set_title("Any 10 happy country")
 3. axes[2].set_xlabel("The countries")
