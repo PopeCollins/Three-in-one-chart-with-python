@@ -5,7 +5,7 @@ The data used for this analysis was downoload from Kaggle
 ### The Source code for writting the on jupiter notebook will be provide in this repo
 
 ### The image:
-![image](https://github.com/PopeCollins/Three-in-one-chart-with-python/blob/main/top%2010.png"image")
+![image](https://github.com/PopeCollins/Three-in-one-chart-with-python/blob/main/top%2010.png "image")
 
 
 ### The source code Using jupiter notebook
