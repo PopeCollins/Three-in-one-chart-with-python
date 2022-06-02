@@ -23,14 +23,14 @@ The data used for this analysis was downoload from Kaggle
 
 
 ### Load your data set
-data= pd.read_csv('....... adjust base on the location on your machine ....world-happiness-report-2021.csv')
+data_first= pd.read_csv('....... adjust base on the location on your machine ....world-happiness-report-2021.csv')
 
 ### Select some Columns
-data_columns = ['Country name', 'Regional indicator', 'Ladder score', 'Logged GDP per capita', 'Social support', 'Healthy life expectancy','Freedom to make life choices','Generosity','Perceptions of corruption']
-data= data[data_columns].copy()
+data_link = ['Country name', 'Regional indicator', 'Ladder score', 'Logged GDP per capita', 'Social support', 'Healthy life expectancy','Freedom to make life choices','Generosity','Perceptions of corruption']
+data_first= data_first[data_link].copy()
 
 ### Rename your coulumn
-happy_df= data.rename(columns={'Country name':'country_name', 'Regional indicator':'regional_indicator', 'Ladder score':'happiness_score','Logged GDP per capita':'logged_GDP_per_capita', 'Social support':'social_support', 'Healthy life expectancy':'healthy_life_expectancy', 'Freedom to make life choices':'freedom_to_make_life_choices','Generosity':'generosity','Perceptions of corruption':'perceptions_of_corruption'})
+happy_df= data_first.rename(columns={'Country name':'country_name', 'Regional indicator':'regional_indicator', 'Ladder score':'happiness_score','Logged GDP per capita':'logged_GDP_per_capita', 'Social support':'social_support', 'Healthy life expectancy':'healthy_life_expectancy', 'Freedom to make life choices':'freedom_to_make_life_choices','Generosity':'generosity','Perceptions of corruption':'perceptions_of_corruption'})
 
 ### Select
 1. top_10 = happy_df.head(10)
