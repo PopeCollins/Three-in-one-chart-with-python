@@ -10,17 +10,17 @@ The data used for this analysis was downoload from Kaggle
 
 ### The source code Using jupiter notebook
 #### Import the usefull library
-
-1. import pandas as pd
-2. import numpy as np
-3. import seaborn as sns
-4. import matplotlib.pyplot as plt
-5. %matplotlib inline
-6. sns.set_style('darkgrid')
-7. plt.rcParams['font.size']=15
-8. plt.rcParams['figure.figsize']= (10,7)
-9. plt.rcParams['figure.facecolor']= '#FFE5B4'
-
+```python
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+%matplotlib inline
+sns.set_style('darkgrid')
+plt.rcParams['font.size']=15
+plt.rcParams['figure.figsize']= (10,7)
+plt.rcParams['figure.facecolor']= '#FFE5B4'
+```
 
 
 ### Load your data set
