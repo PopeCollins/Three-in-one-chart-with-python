@@ -69,4 +69,4 @@ axes[2].set_xticklabels(xlabels,rotation = 45, ha='right' )
 sns.barplot(x=any_10.country_name, y=any_10.healthy_life_expectancy, ax= axes[2])
 ```
 
-Respect to simplilearn on YT (You impact knowldge in me)
+
